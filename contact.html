@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF 8">
+        <meta name="viewport"content="with=device-width, initial scale=1.0">
+        <title>MILESTONES CONSULTANTS </title>   
+        <link rel="stylesheet" href="Style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    </head>
+    <body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logofinal.png"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li class="mylinks"><a href="index.html">HOME</a></li>
+                        <li class="mylinks"><a href="about.html">ABOUT</a></li>
+                        <li class="mylinks"><a href="services.html">INFO & SERVICES</a></li>
+                        <li class="mylinks"><a href="blog.html">BLOG</a></li>
+                        <li class="mylinks"><a href="media.html">GALLERY</a></li>
+                        <li class="mylinks"><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                 </div>
+                 <i class="fa-solid hidden fa-bars" onclick="showMenu()"></i>
+                 
+         </nav>
+        <h1>CONTACT US</h1>
+        </section>
+
+<!-------------CONTACT PAGE CONTENTS------------>
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3989.816189298122!2d34.2892142!3d0.0592185!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177fe37d0b31ab7f%3A0x48acef74239b1123!2sAlego%20Usonga%20Constituency%20Office%2F%20CDF!5e0!3m2!1sen!2ske!4v1669895244557!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<section class="contact-us">
+    <div class="contact-col">
+        <div>
+            <i class="fa-sharp fa-solid fa-house-user"></i>
+            <span>
+                <h5>NGCDF Building, Siaya,</h5>
+                <p> 1st floor, Door 1</p>
+            </span>
+
+        </div>
+
+        <div>
+            <i class="fa-solid fa-phone"></i>
+            <span>
+                <h5>+254 720920491</h5>
+                <p> Monday-Friday, 8AM to 5PM</p>
+            </span>
+
+        </div>
+
+        <div>
+            <i class="fa-regular fa-envelope"></i>
+            <span>
+                <h5>milestones14@gmail.com</h5>
+                <p> E-mail us your enquery</p>
+            </span>
+
+        </div>
+
+        <div>
+            <i class="fa-brands fa-facebook"></i>
+            <span>
+                <h5>MILESTONES CONSULTANTS</h5>
+                <p>Auscar Wambiya</p>
+            </span>
+
+        </div>
+
+        <div>
+            <i class="fa-brands fa-instagram"></i>
+            <span>
+                <h5>MILESTONES CONSULTANTS</h5>
+                <p>auscarwambiya</p>
+            </span>
+
+        </div>
+
+
+        
+
+        <div class="contact-col">
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Your Email Address" required>
+                <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn blue-btn">Send Message</button>
+            </form>
+        </div>
+
+
+
+    </div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!-------------------FOOTER------------------------>
+
+<section class="footer">
+    <h4>MILESTONES CONSULTANTS</h4>
+    <P>we believe that TOGETHER EACH ACHIEVES MORE<br>
+         and that each individual has unique traits that<br>
+          could be harnessed to increase output at all levels.</P>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-regular fa-envelope"></i>
+    </div>
+
+</section>
+
+
+<!--------------------------Java Script for Toggle Menu------------------>
+
+<script>
+    var navlinks =  document.getElementById("navlinks");
+
+    function showMenu(){
+        navlinks.style.right="0";
+    }
+
+    function hideMenu(){
+        navlinks.style.right="-200px";
+    }
+</script>
+
+
+
+
+    </body>
+</html>
